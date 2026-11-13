@@ -1,0 +1,34 @@
+{
+  "target": [
+    {
+      "row_id": "t1",
+      "shipment": "s1",
+      "mass": 5,
+      "active": true
+    },
+    {
+      "row_id": "t2",
+      "shipment": "s2",
+      "mass": 8,
+      "active": true
+    }
+  ],
+  "source": [
+    {
+      "row_id": "u1",
+      "shipment": "s1",
+      "mass": 6
+    },
+    {
+      "row_id": "u2",
+      "shipment": "s3",
+      "mass": 4
+    }
+  ],
+  "unique": [
+    "shipment"
+  ],
+  "on": [
+    "shipment"
+  ]
+}
